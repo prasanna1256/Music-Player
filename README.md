@@ -35,7 +35,7 @@ This project uses Gradle for dependency management and building.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourname/java-music-player.git
+git clone https://github.com/prasanna1256/java-music-player.git
 cd java-music-player
 
 # Build with Gradle
@@ -44,21 +44,6 @@ cd java-music-player
 # Run the application
 ./gradlew run
 ```
-
-## Creating a Standalone JAR
-
-You can create a standalone JAR file with all dependencies included:
-
-```bash
-./gradlew fatJar
-```
-
-The JAR will be created in the `build/libs` directory and can be run with:
-
-```bash
-java -jar build/libs/MusicPlayer-all-1.0-SNAPSHOT.jar
-```
-
 ## System Requirements
 
 - Java 8 or higher
